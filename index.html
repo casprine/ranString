@@ -109,19 +109,6 @@ background-image: linear-gradient(0deg, #FFDEE9 0%, #B5FFFC 100%);
         </div>
     </div>
 </form>
-
-<script type="text/javascript">
-function randomString() {
-    var chars = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789";
-    var string_length = 15;
-    var randomstring = '';
-    for (var i = 0; i < string_length; i++) {
-        var rnum = Math.floor(Math.random() * chars.length);
-        randomstring += chars.substring(rnum, rnum + 1);
-    }
-    document.order.randomfield.value =randomstring;
-}
-</script>
                 </div>
             </div>
         </div>
@@ -142,5 +129,17 @@ function randomString() {
         </div>
               <script src="js/bootstrap.min.js"></script>
   <script src="https://use.fontawesome.com/431b73f0f2.js"></script>
+  <script type="text/javascript">
+function randomString() {
+    var chars = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789";
+    var string_length = 15;
+    var randomstring = '';
+    for (var i = 0; i < string_length; i++) {
+        var rnum = Math.floor(Math.random() * chars.length);
+        randomstring += chars.substring(rnum, rnum + 1);
+    }
+    document.order.randomfield.value =randomstring;
+}
+</script>
     </body>
      </html>
