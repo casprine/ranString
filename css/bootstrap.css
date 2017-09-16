@@ -3929,7 +3929,8 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 .input-group-btn:last-child > .btn-group:not(:last-child) > .btn {
   border-top-right-radius: 0;
   border-bottom-right-radius: 0;
-  font-weight: bold;
+  font-weight: bolder;
+  font-family: monospace;
 }
 .input-group-addon:first-child {
   border-right: 0;
