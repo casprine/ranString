@@ -1,0 +1,22 @@
+{
+  "name": "ranstring",
+  "version": "1.0.0",
+  "description": "random string gen built with vanillajs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Casprine/ranString.git"
+  },
+  "keywords": [
+    "vanillajs"
+  ],
+  "author": "Casprine",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Casprine/ranString/issues"
+  },
+  "homepage": "https://github.com/Casprine/ranString#readme"
+}
